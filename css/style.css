@@ -41,6 +41,10 @@ main {
     margin: auto;
 }
 
+.card-image {
+    max-width: 250px;
+    max-height: 150px;
+}
 /* -------footer------- */
 footer {
     height: 80px;
