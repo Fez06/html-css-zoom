@@ -6,14 +6,12 @@
 
 /* -------common------- */
 body {
-    background-color: rgb(148, 136, 136);
+    background-color: black;
     color: #ffffff;
 }
 
 /* -----DEBUG---- */
-header {
-    background-color: goldenrod;
-}
+
 
 /* -------header------- */
 header {
@@ -21,6 +19,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .row {
@@ -37,10 +36,19 @@ header {
 }
 /* -------main------- */
 main {
-    max-height: calc(100vh -110px);
-    margin: auto;
+    max-height: calc(100% - 110px);
     padding-top: 60px;
     margin: 0 50px;
+    overflow: scroll;
+    margin: auto;
+}
+
+.users {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
 .card-image {
@@ -48,14 +56,15 @@ main {
     max-height: 150px;
 }
 
-.card-image img {
-    position: absolute;
+.card-layout {
+    position: relative;
+    margin: 5px 10px;
 }
 
 .user-name {
-    position: relative;
+    position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 5px;
     padding: 5px 5px;
     background-color: rgba(118, 126, 128, 0.5);
 }
@@ -101,6 +110,9 @@ footer {
     display: flex;
 }
 
+.central-icons .colonna:nth-child(4) i {
+    color: #4bc800;
+}
 .end {
     height: 100%;
     padding: 0 20px;
