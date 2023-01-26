@@ -7,8 +7,13 @@
 /* -------common------- */
 body {
     background-color: black;
+    color: #ffffff;
 }
 
+/* -----DEBUG---- */
+header {
+    background-color: goldenrod;
+}
 /* -------header------- */
 header {
     height: 40px;
@@ -18,9 +23,16 @@ header {
 }
 
 .row {
-
+    text-align: right;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.row .span {
+    
+}
 /* -------main------- */
 main {
     max-height: calc(100vh -110px);
