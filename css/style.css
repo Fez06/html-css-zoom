@@ -5,11 +5,35 @@
 }
 
 /* -------common------- */
+body {
+    background-color: black;
+}
 
 /* -------header------- */
+header {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.row {
+
+}
 
 /* -------main------- */
+main {
+    max-height: calc(100vh -110px);
+    margin: auto;
+}
 
 /* -------footer------- */
+footer {
+    height: 70px;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 
 /* -------end------- */
