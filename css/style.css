@@ -38,10 +38,10 @@ header {
 /* -------main------- */
 main {
     height: calc(100% - 120px);
-    padding-top: 60px;
     margin: auto;
-    overflow: scroll;
+    overflow-y: auto;
     padding: 20px 0;
+    width: 90%;
 }
 
 .users {
