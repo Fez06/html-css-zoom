@@ -37,7 +37,7 @@ header {
 }
 /* -------main------- */
 main {
-    max-height: calc(100vh - 120px);
+    height: calc(100% - 120px);
     padding-top: 60px;
     margin: 0 50px;
     overflow: scroll;
@@ -45,20 +45,19 @@ main {
 }
 
 .users {
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .card-image {
-    max-width: calc(100vw / 7);
-    max-height: 150px;
+    display: block;
+    width: 100%;
+    position: relative;
 }
 
 .card-layout {
-    position: relative;
-    margin: 5px 10px;
+    width: calc(100% / 7);
+    padding: 5px;
 }
 
 .user-name {
