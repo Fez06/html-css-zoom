@@ -8,6 +8,7 @@
 body {
     background-color: black;
     color: #ffffff;
+    height: 100vh;
 }
 
 /* -----DEBUG---- */
@@ -36,23 +37,22 @@ header {
 }
 /* -------main------- */
 main {
-    max-height: calc(100% - 110px);
+    max-height: calc(100vh - 120px);
     padding-top: 60px;
     margin: 0 50px;
     overflow: scroll;
-    margin: auto;
+    
 }
 
 .users {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: center;
 }
 
 .card-image {
-    max-width: 250px;
+    max-width: calc(100vw / 7);
     max-height: 150px;
 }
 
