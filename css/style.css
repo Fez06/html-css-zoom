@@ -39,9 +39,9 @@ header {
 main {
     height: calc(100% - 120px);
     padding-top: 60px;
-    margin: 0 50px;
+    margin: auto;
     overflow: scroll;
-    
+    padding: 20px 0;
 }
 
 .users {
